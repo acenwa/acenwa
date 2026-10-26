@@ -5,7 +5,7 @@
 <h1 align="center">Alozie C. Nwachukwu</h1>
 
 <p align="center">
-  <strong>Software engineering · IT infrastructure · Automation · Web3</strong><br />
+  <strong>Software Engineering · IT Infrastructure · Automation · Web3</strong><br />
   Building practical digital systems, immersive applications, and resilient infrastructure.
 </p>
 
@@ -20,13 +20,9 @@
   <img src="assets/terminal-animation.svg" width="1200" alt="acenwa@portfolio: whoami — Alozie C. Nwachukwu. Build, secure, automate, evolve." />
 </p>
 
-I'm **Alozie C. Nwachukwu**, **[@acenwa](https://github.com/acenwa)** on GitHub. My work connects application engineering, systems administration, and integrations, with a focus on Python, Django, Linux, automation, and Web3.
-
-The mission: build reliable technology with a distinctive digital experience.
-
 <p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
-## `01 / PLATFORMS`
+## `00 // PLATFORMS`
 
 <h3 align="center">Audio Cartel</h3>
 
@@ -81,7 +77,7 @@ An exploration of trading systems as spaceships and market sectors as planets, b
 
 <p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
-## `02 / ENGINEERING TOOLKIT`
+## `01 // ENGINEERING TOOLKIT`
 
 - **`APPLICATIONS`** — Python · Django · JavaScript
 - **`DATA & BACKGROUND WORK`** — PostgreSQL · Redis · Celery
@@ -90,7 +86,7 @@ An exploration of trading systems as spaceships and market sectors as planets, b
 
 <p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
-## `03 / BUILD PROTOCOL`
+## `02 // BUILD PROTOCOL`
 
 - **`BUILD`** useful, maintainable applications.
 - **`SECURE`** systems, identities, and transactions.
