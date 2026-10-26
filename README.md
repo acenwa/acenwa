@@ -13,7 +13,6 @@
   <a href="https://ronin-exe.us/about"><img src="assets/badges/portfolio.svg" width="176" alt="About and portfolio" /></a>
   <a href="#01--platforms"><img src="assets/badges/platforms.svg" width="176" alt="Jump to platform projects" /></a>
   <a href="https://github.com/acenwa?tab=repositories"><img src="assets/badges/repositories.svg" width="176" alt="Browse GitHub repositories" /></a>
-  <a href="https://github.com/acenwa?tab=overview"><img src="assets/badges/activity.svg" width="176" alt="View GitHub activity" /></a>
 </p>
 
 <p align="center">
