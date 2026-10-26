@@ -74,7 +74,7 @@ An exploration of trading systems as spaceships and market sectors as planets, b
 
 ## `01 // ENGINEERING TOOLKIT`
 
-- **`APPLICATIONS`** — Python · Django · JavaScript
+- **`APPLICATIONS`** — C · Python · Django · JavaScript
 - **`DATA & BACKGROUND WORK`** — PostgreSQL · Redis · Celery
 - **`INFRASTRUCTURE`** — Linux · Docker · Nginx · Git
 - **`INTEGRATIONS`** — Polygon · Stripe · Brokerage APIs
