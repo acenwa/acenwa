@@ -1,1 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080B12"/><stop offset="1" stop-color="#101B33"/></linearGradient><linearGradient id="line"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs><rect width="100%" height="100%" fill="url(#bg)"/><rect x="7" y="7" width="114" height="114" rx="22" fill="#080B12" stroke="#00E5FF" stroke-width="3"/><text x="64" y="80" text-anchor="middle" font-family="monospace" font-size="43" font-weight="bold" fill="#00E5FF">RX</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="292" viewBox="0 0 260 292" role="img" aria-labelledby="title description">
+  <title id="title">RONIN.EXE project gateway</title>
+  <desc id="description">An original geometric ronin helmet with a luminous visor, layered faceplate, crossed blade outlines, circuit brackets, and a protective shield.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#040a13"/><stop offset="1" stop-color="#0b1b30"/></linearGradient>
+    <linearGradient id="spectrum" x2="1" y2=".5"><stop stop-color="#22e4f4"/><stop offset=".55" stop-color="#39a9fc"/><stop offset="1" stop-color="#a28aff"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#1598bd" stop-opacity=".22"/><stop offset="1" stop-color="#1598bd" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sphere" cx=".3" cy=".2"><stop stop-color="#103b55"/><stop offset="1" stop-color="#061222"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#276080" stroke-width=".5" opacity=".22"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <path d="M18 1H242L259 18V274L242 291H18L1 274V18Z" fill="url(#background)" stroke="#20384f"/>
+  <path d="M18 1H66M1 66V18L18 1M194 291H242L259 274V230" fill="none" stroke="#5ee4ed" stroke-width="1.4"/>
+  <path d="M12 56V28L28 12H55M205 279H231L247 263V239" fill="none" stroke="#5ee4ed" opacity=".3"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="8" letter-spacing="1.4" fill="#7c9caf"><text x="23" y="28">GATEWAY / 02</text><text x="217" y="28">↗</text></g>
+  <circle cx="130" cy="124" r="100" fill="url(#halo)"/>
+  <circle cx="130" cy="124" r="86" fill="none" stroke="#5ee4ed" stroke-width=".7" opacity=".45"/>
+  <circle cx="130" cy="124" r="78" fill="none" stroke="#7e9dff" stroke-width="1.1" stroke-dasharray="16 7 2 7" opacity=".7"/>
+  <g fill="none" stroke="#5ee4ed" stroke-width=".8" opacity=".65"><path d="M221.00 124.00L226.40 124.00"/><path d="M219.88 138.24L222.84 138.70"/><path d="M216.55 152.12L219.40 153.05"/><path d="M211.08 165.31L213.75 166.68"/><path d="M203.62 177.49L206.05 179.25"/><path d="M194.35 188.35L198.17 192.17"/><path d="M183.49 197.62L185.25 200.05"/><path d="M171.31 205.08L172.68 207.75"/><path d="M158.12 210.55L159.05 213.40"/><path d="M144.24 213.88L144.70 216.84"/><path d="M130.00 215.00L130.00 220.40"/><path d="M115.76 213.88L115.30 216.84"/><path d="M101.88 210.55L100.95 213.40"/><path d="M88.69 205.08L87.32 207.75"/><path d="M76.51 197.62L74.75 200.05"/><path d="M65.65 188.35L61.83 192.17"/><path d="M56.38 177.49L53.95 179.25"/><path d="M48.92 165.31L46.25 166.68"/><path d="M43.45 152.12L40.60 153.05"/><path d="M40.12 138.24L37.16 138.70"/><path d="M39.00 124.00L33.60 124.00"/><path d="M40.12 109.76L37.16 109.30"/><path d="M43.45 95.88L40.60 94.95"/><path d="M48.92 82.69L46.25 81.32"/><path d="M56.38 70.51L53.95 68.75"/><path d="M65.65 59.65L61.83 55.83"/><path d="M76.51 50.38L74.75 47.95"/><path d="M88.69 42.92L87.32 40.25"/><path d="M101.88 37.45L100.95 34.60"/><path d="M115.76 34.12L115.30 31.16"/><path d="M130.00 33.00L130.00 27.60"/><path d="M144.24 34.12L144.70 31.16"/><path d="M158.12 37.45L159.05 34.60"/><path d="M171.31 42.92L172.68 40.25"/><path d="M183.49 50.38L185.25 47.95"/><path d="M194.35 59.65L198.17 55.83"/><path d="M203.62 70.51L206.05 68.75"/><path d="M211.08 82.69L213.75 81.32"/><path d="M216.55 95.88L219.40 94.95"/><path d="M219.88 109.76L222.84 109.30"/></g>
+  <g fill="none" stroke="#5ee4ed" stroke-width=".7" opacity=".5"><path d="M15 94H28L40 106M220 141L232 153H245M29 182H45L55 172M201 63L213 51H237"/></g>
+
+  <!-- A geometric helmet and circuit shield, with crossed blade outlines. -->
+  <g fill="none" stroke="#336e86" stroke-width="1.2"><path d="M76 68L186 178M72 71L182 182M184 66L76 178M188 70L80 182"/><path d="M83 80L91 72M172 83L181 74" stroke="#6ed5e8" stroke-width="2.5"/></g>
+  <path d="M130 55L190 83 181 151 130 189 79 151 70 83Z" fill="#071b2a" stroke="#5ce3eb" stroke-width="1.3"/>
+  <path d="M130 64L181 88 173 147 130 179 87 147 79 88Z" fill="none" stroke="#265e79" stroke-width=".8"/>
+  <path d="M103 103L90 71 111 84 130 77 149 84 170 71 157 103" fill="#12384c" stroke="#7aebf2" stroke-width="1.5"/>
+  <path d="M103 103L113 91 130 85 147 91 157 103 164 124 151 151 130 166 109 151 96 124Z" fill="#0a192a" stroke="#5cc9df" stroke-width="1.4"/>
+  <path d="M103 111H157L148 128H112Z" fill="#23556a" stroke="#65dbeb" stroke-width="1"/>
+  <path d="M108 116L122 119M138 119L152 116" stroke="#c1faff" stroke-width="2.8"/>
+  <path d="M110 130L116 148 130 157 144 148 150 130M130 128V146M119 137H141M122 143H138" fill="none" stroke="#60bacf" stroke-width="1.2"/>
+  <path d="M90 112H83V132H90M170 112H177V132H170" fill="none" stroke="#897bf0" stroke-width="1.5"/>
+  <g fill="#b1f8fd"><circle cx="130" cy="55" r="2.5"/><circle cx="79" cy="151" r="2"/><circle cx="181" cy="151" r="2"/></g>
+
+  <path d="M28 219H232" stroke="#244159"/>
+  <g text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"><text x="130" y="245" font-size="19" font-weight="650" letter-spacing="1.2" fill="#e8f5ff">RONIN.EXE</text></g>
+  <text x="130" y="270" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="1.8" fill="#5ee4ed">EXPLORE SERVICES</text>
+
+</svg>

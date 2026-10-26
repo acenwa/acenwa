@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080B12"/><stop offset="1" stop-color="#101B33"/></linearGradient><linearGradient id="line"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs><rect width="100%" height="100%" fill="url(#bg)"/><rect x="18" y="18" width="1164" height="104" rx="9" fill="#03070D" stroke="#00E5FF" stroke-opacity=".55"/><circle cx="44" cy="41" r="6" fill="#FF1744"/><circle cx="65" cy="41" r="6" fill="#F5C451"/><circle cx="86" cy="41" r="6" fill="#00E5FF"/><text x="43" y="82" font-family="monospace" font-size="24" fill="#00E5FF">acenwa@command:~$</text><text x="305" y="82" font-family="monospace" font-size="24" fill="#E5F4FF">system status: ONLINE</text><rect x="700" y="61" width="13" height="27" fill="#00E5FF"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="158" viewBox="0 0 1200 158" role="img" aria-labelledby="title description">
+  <title id="title">Identity session — Alozie C. Nwachukwu</title>
+  <desc id="description">A decorative terminal reads acenwa at portfolio: whoami, followed by Alozie C. Nwachukwu and the principles build, secure, automate, evolve. Cursor motion is disabled for reduced-motion preferences.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#040a13"/><stop offset="1" stop-color="#0b1b30"/></linearGradient>
+    <linearGradient id="spectrum" x2="1" y2=".5"><stop stop-color="#22e4f4"/><stop offset=".55" stop-color="#39a9fc"/><stop offset="1" stop-color="#a28aff"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#1598bd" stop-opacity=".22"/><stop offset="1" stop-color="#1598bd" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sphere" cx=".3" cy=".2"><stop stop-color="#103b55"/><stop offset="1" stop-color="#061222"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#276080" stroke-width=".5" opacity=".22"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <style>
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: no-preference) { .cursor { animation: blink 1.8s step-end infinite; } }
+  </style>
+  <path d="M15 1H1185L1199 15V143L1185 157H15L1 143V15Z" fill="#050e1a" stroke="#21475f"/>
+  <path d="M1 42H1199" stroke="#18364a"/>
+  <g fill="#416176"><circle cx="28" cy="22" r="3"/><circle cx="42" cy="22" r="3"/><circle cx="56" cy="22" r="3"/></g>
+  <circle cx="28" cy="22" r="3" fill="#4ad8e3"/>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="79" y="26" fill="#709bb2" font-size="11" letter-spacing="1.3">identity.session</text>
+    <text x="1003" y="26" fill="#709bb2" font-size="9" letter-spacing="1.3">ACENWA / PORTFOLIO</text>
+    <text x="35" y="81" font-size="19"><tspan fill="#64dbea">acenwa@portfolio:~$</tspan><tspan dx="12" fill="#d2e5f3">whoami</tspan></text>
+    <text x="35" y="122" fill="#ebf8ff" font-size="23">Alozie C. Nwachukwu</text>
+    <text x="526" y="119" fill="#709cb5" font-size="13">BUILD / SECURE / AUTOMATE / EVOLVE</text>
+  </g>
+  <path d="M1139 76H1170V128H1139" fill="none" stroke="#325b73"/>
+  <rect class="cursor" x="1113" y="103" width="9" height="19" fill="#6cdde9"/>
+
+</svg>
