@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cyber-banner.svg" width="1200" alt="Alozie C. Nwachukwu — Digital Systems Architect. A cyan orbital interface with a wireframe globe, circuit traces, and geometric constellations." />
+  <img src="assets/cyber-banner.svg" width="1200" alt="Alozie C. Nwachukwu — Digital Systems Architect. Animated cyan orbital rings, a wireframe globe, and fine circuit traces." />
 </p>
 
 <h1 align="center">Alozie C. Nwachukwu</h1>
@@ -10,87 +10,99 @@
 </p>
 
 <p align="center">
-  <a href="https://ronin-exe.us/about">About &amp; portfolio</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/acenwa?tab=repositories">Code &amp; repositories</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/acenwa?tab=overview">GitHub activity</a>
+  <a href="https://ronin-exe.us/about"><img src="assets/badges/portfolio.svg" width="176" alt="About and portfolio" /></a>
+  <a href="#01--platforms"><img src="assets/badges/platforms.svg" width="176" alt="Jump to platform projects" /></a>
+  <a href="https://github.com/acenwa?tab=repositories"><img src="assets/badges/repositories.svg" width="176" alt="Browse GitHub repositories" /></a>
+  <a href="https://github.com/acenwa?tab=overview"><img src="assets/badges/activity.svg" width="176" alt="View GitHub activity" /></a>
 </p>
 
 <p align="center">
   <img src="assets/terminal-animation.svg" width="1200" alt="acenwa@portfolio: whoami — Alozie C. Nwachukwu. Build, secure, automate, evolve." />
 </p>
 
-## 01 / Operator profile
-
 I'm **Alozie C. Nwachukwu**, **[@acenwa](https://github.com/acenwa)** on GitHub. My work connects application engineering, systems administration, and integrations, with a focus on Python, Django, Linux, automation, and Web3.
 
 The mission: build reliable technology with a distinctive digital experience.
 
-## 02 / Project gateways
+<p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
+
+## `01 / PLATFORMS`
+
+<h3 align="center">Audio Cartel</h3>
 
 <p align="center">
-  <a href="https://audiocartel.net"><img src="assets/project-icons/audiocartel.svg" width="190" alt="Open Audio Cartel — a waveform core with connected blockchain nodes" /></a>
-  &nbsp;
-  <a href="https://ronin-exe.us"><img src="assets/project-icons/ronin-exe.svg" width="190" alt="Open RONIN.EXE — a geometric ronin helmet inside a circuit shield" /></a>
-  &nbsp;
-  <a href="#flexii-world"><img src="assets/project-icons/flexii-world.svg" width="190" alt="Explore Flexii World project notes — an orbital planet with a spacecraft and navigation grid" /></a>
+  <a href="https://audiocartel.net"><img src="assets/project-icons/audiocartel.svg" width="210" alt="Open Audio Cartel — an animated waveform core with connected blockchain nodes" /></a>
 </p>
 
-### Audio Cartel
-
-**Music · Creator services · Web3**
+<p align="center"><code>MUSIC</code> &nbsp; <code>CREATOR SERVICES</code> &nbsp; <code>WEB3</code></p>
 
 A music and creator-services ecosystem with Django infrastructure, identity verification, activity tracking, and blockchain settlement.
 
-`Django` `PostgreSQL` `Celery` `Polygon`
+<p align="center"><code>Django</code> · <code>PostgreSQL</code> · <code>Celery</code> · <code>Polygon</code></p>
 
-**[Enter Audio Cartel →](https://audiocartel.net)**
+<p align="center">
+  <a href="https://audiocartel.net"><img src="assets/badges/audiocartel.svg" width="184" alt="Enter Audio Cartel" /></a>
+</p>
 
----
+<p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
-### RONIN.EXE
+<h3 align="center">RONIN.EXE</h3>
 
-**IT support · Digital services · Infrastructure**
+<p align="center">
+  <a href="https://ronin-exe.us"><img src="assets/project-icons/ronin-exe.svg" width="210" alt="Open RONIN.EXE — a geometric ronin helmet with an animated circuit shield and visor" /></a>
+</p>
+
+<p align="center"><code>IT SUPPORT</code> &nbsp; <code>DIGITAL SERVICES</code> &nbsp; <code>INFRASTRUCTURE</code></p>
 
 Customer workflows, automation, secure payments, and production infrastructure brought together in a digital-services platform.
 
-`Django` `Linux` `Nginx` `Stripe`
+<p align="center"><code>Django</code> · <code>Linux</code> · <code>Nginx</code> · <code>Stripe</code></p>
 
-**[Explore RONIN.EXE →](https://ronin-exe.us)** · **[About the developer →](https://ronin-exe.us/about)**
+<p align="center">
+  <a href="https://ronin-exe.us"><img src="assets/badges/ronin.svg" width="184" alt="Explore RONIN.EXE services" /></a>
+  <a href="https://ronin-exe.us/about"><img src="assets/badges/portfolio.svg" width="184" alt="About the developer" /></a>
+</p>
 
----
+<p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
-### Flexii World
+<h3 align="center">Flexii World</h3>
 
-**In development · Galactic trading environment**
+<p align="center">
+  <img src="assets/project-icons/flexii-world.svg" width="210" alt="Flexii World — an animated orbital planet with a spacecraft, navigation grid, and moving orbital signal" />
+</p>
+
+<p align="center"><code>GALACTIC INTERFACES</code> &nbsp; <code>TRADING SYSTEMS</code></p>
 
 An exploration of trading systems as spaceships and market sectors as planets, bringing financial data into an immersive galactic interface.
 
-`Python` `Brokerage APIs` `Data pipelines` `3D interfaces`
+<p align="center"><code>Python</code> · <code>Brokerage APIs</code> · <code>Data pipelines</code> · <code>3D interfaces</code></p>
 
-## 03 / Engineering toolkit
+<p align="center"><img src="assets/badges/development.svg" width="184" alt="Flexii World is in development" /></p>
 
-- **Applications** — `Python` `Django` `JavaScript`
-- **Data & background work** — `PostgreSQL` `Redis` `Celery`
-- **Infrastructure** — `Linux` `Docker` `Nginx` `Git`
-- **Integrations** — `Polygon` `Stripe` `Brokerage APIs`
+<p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
-## 04 / Operating principles
+## `02 / ENGINEERING TOOLKIT`
 
-- **Build** useful, maintainable applications.
-- **Secure** systems, identities, and transactions.
-- **Automate** repetitive work with dependable workflows.
-- **Evolve** through testing, measurement, and continuous improvement.
+- **`APPLICATIONS`** — Python · Django · JavaScript
+- **`DATA & BACKGROUND WORK`** — PostgreSQL · Redis · Celery
+- **`INFRASTRUCTURE`** — Linux · Docker · Nginx · Git
+- **`INTEGRATIONS`** — Polygon · Stripe · Brokerage APIs
+
+<p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
+
+## `03 / BUILD PROTOCOL`
+
+- **`BUILD`** useful, maintainable applications.
+- **`SECURE`** systems, identities, and transactions.
+- **`AUTOMATE`** repetitive work with dependable workflows.
+- **`EVOLVE`** through testing, measurement, and continuous improvement.
 
 <p align="center">
-  <a href="https://ronin-exe.us/about">Meet Alozie C. Nwachukwu</a>
-  &nbsp; / &nbsp;
-  <a href="https://audiocartel.net">Explore Audio Cartel</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/acenwa?tab=repositories">Browse the code</a>
+  <a href="https://ronin-exe.us/about"><img src="assets/badges/portfolio.svg" width="176" alt="About and portfolio" /></a>
+  <a href="https://github.com/acenwa?tab=repositories"><img src="assets/badges/repositories.svg" width="176" alt="Browse GitHub repositories" /></a>
+  <a href="https://github.com/acenwa?tab=overview"><img src="assets/badges/activity.svg" width="176" alt="View GitHub activity" /></a>
 </p>
 
 <p align="center">
-  <img src="assets/cyber-footer.svg" width="1200" alt="Alozie C. Nwachukwu / ACENWA. Build. Secure. Automate. Evolve." />
+  <img src="assets/cyber-footer.svg" width="1200" alt="Alozie C. Nwachukwu / ACENWA. Animated circuit signals connect the principles build, secure, automate, evolve." />
 </p>

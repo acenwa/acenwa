@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-labelledby="title description">
+  <title id="title">Circuit divider</title>
+  <desc id="description">A fine cyan and violet circuit line with a slowly travelling signal. Motion stops when reduced motion is preferred.</desc>
+  <style>
+    @keyframes flow { to { stroke-dashoffset: -440; } }
+    @media (prefers-reduced-motion: no-preference) { .signal { animation: flow 15s linear infinite; } }
+  </style>
+  <path d="M0 18H180L193 5H390L403 18H796L809 31H1006L1019 18H1200" fill="none" stroke="#28516c" stroke-width="1"/>
+  <path class="signal" d="M0 18H180L193 5H390L403 18H796L809 31H1006L1019 18H1200" fill="none" stroke="#5edee9" stroke-width="1.4" stroke-dasharray="35 185"/>
+  <g fill="#a88af6"><circle cx="193" cy="5" r="2"/><circle cx="809" cy="31" r="2"/></g>
+</svg>

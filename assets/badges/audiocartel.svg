@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-labelledby="title description">
+  <title id="title">ENTER PLATFORM</title>
+  <desc id="description">Visit the Audio Cartel platform.</desc>
+  <path d="M9 1H211L219 9V39L211 47H9L1 39V9Z" fill="#081421" stroke="#28506b"/>
+  <path d="M1 18V9L9 1H57M163 47H211L219 39V30" fill="none" stroke="#fb7a9c" stroke-width="1.2"/>
+  <path d="M49 10V38" stroke="#244458"/>
+  <g fill="none" stroke="#fb7a9c" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M15 25H19L22 17 27 31 31 20 34 25H38"/></g>
+  <text x="61" y="29" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing=".8" fill="#e1f2fc">ENTER PLATFORM</text>
+</svg>

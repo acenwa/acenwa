@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-labelledby="title description">
+  <title id="title">REPOSITORIES</title>
+  <desc id="description">Browse acenwa public repositories on GitHub.</desc>
+  <path d="M9 1H211L219 9V39L211 47H9L1 39V9Z" fill="#081421" stroke="#28506b"/>
+  <path d="M1 18V9L9 1H57M163 47H211L219 39V30" fill="none" stroke="#5adfea" stroke-width="1.2"/>
+  <path d="M49 10V38" stroke="#244458"/>
+  <g fill="none" stroke="#5adfea" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M17 14H31L35 18V33H17Z M22 20L19 23 22 26M29 20L32 23 29 26"/></g>
+  <text x="61" y="29" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing=".8" fill="#e1f2fc">REPOSITORIES</text>
+</svg>

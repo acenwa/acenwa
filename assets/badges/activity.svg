@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-labelledby="title description">
+  <title id="title">ACTIVITY</title>
+  <desc id="description">View acenwa public GitHub activity.</desc>
+  <path d="M9 1H211L219 9V39L211 47H9L1 39V9Z" fill="#081421" stroke="#28506b"/>
+  <path d="M1 18V9L9 1H57M163 47H211L219 39V30" fill="none" stroke="#b398ff" stroke-width="1.2"/>
+  <path d="M49 10V38" stroke="#244458"/>
+  <g fill="none" stroke="#b398ff" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M15 25H20L23 17 28 31 31 22H37"/></g>
+  <text x="61" y="29" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing=".8" fill="#e1f2fc">ACTIVITY</text>
+</svg>

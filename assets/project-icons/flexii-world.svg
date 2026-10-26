@@ -1,39 +1,128 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="260" height="292" viewBox="0 0 260 292" role="img" aria-labelledby="title description">
   <title id="title">FLEXII WORLD project gateway</title>
   <desc id="description">An original galactic trading emblem: a planet with latitude and longitude lines, two orbital navigation tracks, a small spacecraft, constellations, and a data trace.</desc>
+  <style>
+
+    @keyframes ring-drift { to { transform: rotate(360deg); } }
+    @keyframes core-glow { 50% { opacity: .85; } }
+    @keyframes orbit-signal { to { stroke-dashoffset: -100; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .icon-ring { transform-origin: 130px 124px; animation: ring-drift 36s linear infinite; }
+      .icon-halo { animation: core-glow 5s ease-in-out infinite; }
+      .wave-glow { animation: core-glow 2.8s ease-in-out infinite; }
+      .visor-glow { animation: core-glow 4s ease-in-out infinite; }
+      .orbit-trace { animation: orbit-signal 12s linear infinite; }
+    }
+</style>
   <defs>
-    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#040a13"/><stop offset="1" stop-color="#0b1b30"/></linearGradient>
-    <linearGradient id="spectrum" x2="1" y2=".5"><stop stop-color="#22e4f4"/><stop offset=".55" stop-color="#39a9fc"/><stop offset="1" stop-color="#a28aff"/></linearGradient>
-    <radialGradient id="halo"><stop stop-color="#1598bd" stop-opacity=".22"/><stop offset="1" stop-color="#1598bd" stop-opacity="0"/></radialGradient>
-    <radialGradient id="sphere" cx=".3" cy=".2"><stop stop-color="#103b55"/><stop offset="1" stop-color="#061222"/></radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#276080" stroke-width=".5" opacity=".22"/></pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
-<clipPath id="planet-clip"><circle cx="128" cy="125" r="49"/></clipPath>  </defs>
-
-  <path d="M18 1H242L259 18V274L242 291H18L1 274V18Z" fill="url(#background)" stroke="#20384f"/>
-  <path d="M18 1H66M1 66V18L18 1M194 291H242L259 274V230" fill="none" stroke="#b69aff" stroke-width="1.4"/>
-  <path d="M12 56V28L28 12H55M205 279H231L247 263V239" fill="none" stroke="#b69aff" opacity=".3"/>
-  <g font-family="Consolas, 'Courier New', monospace" font-size="8" letter-spacing="1.4" fill="#7c9caf"><text x="23" y="28">GATEWAY / 03</text><text x="217" y="28">↗</text></g>
-  <circle cx="130" cy="124" r="100" fill="url(#halo)"/>
-  <circle cx="130" cy="124" r="86" fill="none" stroke="#b69aff" stroke-width=".7" opacity=".45"/>
-  <circle cx="130" cy="124" r="78" fill="none" stroke="#69d4e6" stroke-width="1.1" stroke-dasharray="16 7 2 7" opacity=".7"/>
-  <g fill="none" stroke="#b69aff" stroke-width=".8" opacity=".65"><path d="M221.00 124.00L226.40 124.00"/><path d="M219.88 138.24L222.84 138.70"/><path d="M216.55 152.12L219.40 153.05"/><path d="M211.08 165.31L213.75 166.68"/><path d="M203.62 177.49L206.05 179.25"/><path d="M194.35 188.35L198.17 192.17"/><path d="M183.49 197.62L185.25 200.05"/><path d="M171.31 205.08L172.68 207.75"/><path d="M158.12 210.55L159.05 213.40"/><path d="M144.24 213.88L144.70 216.84"/><path d="M130.00 215.00L130.00 220.40"/><path d="M115.76 213.88L115.30 216.84"/><path d="M101.88 210.55L100.95 213.40"/><path d="M88.69 205.08L87.32 207.75"/><path d="M76.51 197.62L74.75 200.05"/><path d="M65.65 188.35L61.83 192.17"/><path d="M56.38 177.49L53.95 179.25"/><path d="M48.92 165.31L46.25 166.68"/><path d="M43.45 152.12L40.60 153.05"/><path d="M40.12 138.24L37.16 138.70"/><path d="M39.00 124.00L33.60 124.00"/><path d="M40.12 109.76L37.16 109.30"/><path d="M43.45 95.88L40.60 94.95"/><path d="M48.92 82.69L46.25 81.32"/><path d="M56.38 70.51L53.95 68.75"/><path d="M65.65 59.65L61.83 55.83"/><path d="M76.51 50.38L74.75 47.95"/><path d="M88.69 42.92L87.32 40.25"/><path d="M101.88 37.45L100.95 34.60"/><path d="M115.76 34.12L115.30 31.16"/><path d="M130.00 33.00L130.00 27.60"/><path d="M144.24 34.12L144.70 31.16"/><path d="M158.12 37.45L159.05 34.60"/><path d="M171.31 42.92L172.68 40.25"/><path d="M183.49 50.38L185.25 47.95"/><path d="M194.35 59.65L198.17 55.83"/><path d="M203.62 70.51L206.05 68.75"/><path d="M211.08 82.69L213.75 81.32"/><path d="M216.55 95.88L219.40 94.95"/><path d="M219.88 109.76L222.84 109.30"/></g>
-  <g fill="none" stroke="#b69aff" stroke-width=".7" opacity=".5"><path d="M15 94H28L40 106M220 141L232 153H245M29 182H45L55 172M201 63L213 51H237"/></g>
-
-  <!-- A navigable planet: meridians, orbital tracks, a spacecraft, and stars. -->
-  <circle cx="128" cy="125" r="49" fill="url(#sphere)" stroke="#b698ff" stroke-width="1.5"/>
-  <g clip-path="url(#planet-clip)" fill="none" stroke="#886bd5" stroke-width=".8"><ellipse cx="128" cy="125" rx="20" ry="49"/><ellipse cx="128" cy="125" rx="39" ry="49"/><ellipse cx="128" cy="125" rx="49" ry="17"/><ellipse cx="128" cy="125" rx="49" ry="36"/><path d="M79 125H177M128 76V174"/></g>
-  <ellipse cx="128" cy="125" rx="85" ry="25" transform="rotate(-27 128 125)" fill="none" stroke="#c5a9ff" stroke-width="1.5"/>
-  <ellipse cx="128" cy="125" rx="91" ry="30" transform="rotate(-27 128 125)" fill="none" stroke="#50bccc" stroke-width=".7" stroke-dasharray="3 7"/>
-  <path d="M84 84L101 65 131 62 154 74" fill="none" stroke="#706caa" stroke-width=".8"/>
-  <g fill="#c9bdff"><circle cx="84" cy="84" r="2"/><circle cx="101" cy="65" r="2"/><circle cx="131" cy="62" r="2"/></g>
-  <g transform="translate(181 67) rotate(35)"><path d="M0-19L12 14 0 8-12 14Z" fill="#b9d6fb" stroke="#e5e8ff"/><path d="M0-10V8M-5 19L0 31 5 19" fill="none" stroke="#4bddf1" stroke-width="1.7"/></g>
-  <circle cx="62" cy="153" r="4" fill="#a0ebf0"/>
-  <path d="M183 161H195M189 155V167M65 65H73M69 61V69" stroke="#c5b9ff" stroke-width="1.3"/>
-  <path d="M105 186V181M115 186V177M125 186V173M135 186V179M145 186V170M155 186V175" stroke="#8c88d6" stroke-width="2"/>
-
-  <path d="M28 219H232" stroke="#244159"/>
-  <g text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"><text x="130" y="245" font-size="19" font-weight="650" letter-spacing="1.2" fill="#e8f5ff">FLEXII WORLD</text></g>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#040a13" />
+      <stop offset="1" stop-color="#0b1b30" />
+    </linearGradient>
+    <linearGradient id="spectrum" x2="1" y2=".5">
+      <stop stop-color="#22e4f4" />
+      <stop offset=".55" stop-color="#39a9fc" />
+      <stop offset="1" stop-color="#a28aff" />
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#1598bd" stop-opacity=".22" />
+      <stop offset="1" stop-color="#1598bd" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="sphere" cx=".3" cy=".2">
+      <stop stop-color="#103b55" />
+      <stop offset="1" stop-color="#061222" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#276080" stroke-width=".5" opacity=".22" />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+    <clipPath id="planet-clip">
+      <circle cx="128" cy="125" r="49" />
+    </clipPath>
+  </defs>
+  <path d="M18 1H242L259 18V274L242 291H18L1 274V18Z" fill="url(#background)" stroke="#20384f" />
+  <path d="M18 1H66M1 66V18L18 1M194 291H242L259 274V230" fill="none" stroke="#b69aff" stroke-width="1.4" />
+  <path d="M12 56V28L28 12H55M205 279H231L247 263V239" fill="none" stroke="#b69aff" opacity=".3" />
+  <g font-family="Consolas, 'Courier New', monospace" font-size="8" letter-spacing="1.4" fill="#7c9caf">
+    <text x="23" y="28">GATEWAY / 03</text>
+    <text x="217" y="28">↗</text>
+  </g>
+  <circle cx="130" cy="124" r="100" fill="url(#halo)" />
+  <circle cx="130" cy="124" r="86" fill="none" stroke="#b69aff" stroke-width=".7" opacity=".45" class="icon-halo" />
+  <circle cx="130" cy="124" r="78" fill="none" stroke="#69d4e6" stroke-width="1.1" stroke-dasharray="16 7 2 7" opacity=".7" class="icon-ring" />
+  <g fill="none" stroke="#b69aff" stroke-width=".8" opacity=".65">
+    <path d="M221.00 124.00L226.40 124.00" />
+    <path d="M219.88 138.24L222.84 138.70" />
+    <path d="M216.55 152.12L219.40 153.05" />
+    <path d="M211.08 165.31L213.75 166.68" />
+    <path d="M203.62 177.49L206.05 179.25" />
+    <path d="M194.35 188.35L198.17 192.17" />
+    <path d="M183.49 197.62L185.25 200.05" />
+    <path d="M171.31 205.08L172.68 207.75" />
+    <path d="M158.12 210.55L159.05 213.40" />
+    <path d="M144.24 213.88L144.70 216.84" />
+    <path d="M130.00 215.00L130.00 220.40" />
+    <path d="M115.76 213.88L115.30 216.84" />
+    <path d="M101.88 210.55L100.95 213.40" />
+    <path d="M88.69 205.08L87.32 207.75" />
+    <path d="M76.51 197.62L74.75 200.05" />
+    <path d="M65.65 188.35L61.83 192.17" />
+    <path d="M56.38 177.49L53.95 179.25" />
+    <path d="M48.92 165.31L46.25 166.68" />
+    <path d="M43.45 152.12L40.60 153.05" />
+    <path d="M40.12 138.24L37.16 138.70" />
+    <path d="M39.00 124.00L33.60 124.00" />
+    <path d="M40.12 109.76L37.16 109.30" />
+    <path d="M43.45 95.88L40.60 94.95" />
+    <path d="M48.92 82.69L46.25 81.32" />
+    <path d="M56.38 70.51L53.95 68.75" />
+    <path d="M65.65 59.65L61.83 55.83" />
+    <path d="M76.51 50.38L74.75 47.95" />
+    <path d="M88.69 42.92L87.32 40.25" />
+    <path d="M101.88 37.45L100.95 34.60" />
+    <path d="M115.76 34.12L115.30 31.16" />
+    <path d="M130.00 33.00L130.00 27.60" />
+    <path d="M144.24 34.12L144.70 31.16" />
+    <path d="M158.12 37.45L159.05 34.60" />
+    <path d="M171.31 42.92L172.68 40.25" />
+    <path d="M183.49 50.38L185.25 47.95" />
+    <path d="M194.35 59.65L198.17 55.83" />
+    <path d="M203.62 70.51L206.05 68.75" />
+    <path d="M211.08 82.69L213.75 81.32" />
+    <path d="M216.55 95.88L219.40 94.95" />
+    <path d="M219.88 109.76L222.84 109.30" />
+  </g>
+  <g fill="none" stroke="#b69aff" stroke-width=".7" opacity=".5">
+    <path d="M15 94H28L40 106M220 141L232 153H245M29 182H45L55 172M201 63L213 51H237" />
+  </g>
+  <circle cx="128" cy="125" r="49" fill="url(#sphere)" stroke="#b698ff" stroke-width="1.5" />
+  <g clip-path="url(#planet-clip)" fill="none" stroke="#886bd5" stroke-width=".8">
+    <ellipse cx="128" cy="125" rx="20" ry="49" />
+    <ellipse cx="128" cy="125" rx="39" ry="49" />
+    <ellipse cx="128" cy="125" rx="49" ry="17" />
+    <ellipse cx="128" cy="125" rx="49" ry="36" />
+    <path d="M79 125H177M128 76V174" />
+  </g>
+  <ellipse cx="128" cy="125" rx="85" ry="25" transform="rotate(-27 128 125)" fill="none" stroke="#c5a9ff" stroke-width="1.5" />
+  <ellipse cx="128" cy="125" rx="91" ry="30" transform="rotate(-27 128 125)" fill="none" stroke="#50bccc" stroke-width=".7" stroke-dasharray="3 7" class="orbit-trace" />
+  <path d="M84 84L101 65 131 62 154 74" fill="none" stroke="#706caa" stroke-width=".8" />
+  <g fill="#c9bdff">
+    <circle cx="84" cy="84" r="2" />
+    <circle cx="101" cy="65" r="2" />
+    <circle cx="131" cy="62" r="2" />
+  </g>
+  <g transform="translate(181 67) rotate(35)">
+    <path d="M0-19L12 14 0 8-12 14Z" fill="#b9d6fb" stroke="#e5e8ff" />
+    <path d="M0-10V8M-5 19L0 31 5 19" fill="none" stroke="#4bddf1" stroke-width="1.7" />
+  </g>
+  <circle cx="62" cy="153" r="4" fill="#a0ebf0" />
+  <path d="M183 161H195M189 155V167M65 65H73M69 61V69" stroke="#c5b9ff" stroke-width="1.3" />
+  <path d="M105 186V181M115 186V177M125 186V173M135 186V179M145 186V170M155 186V175" stroke="#8c88d6" stroke-width="2" />
+  <path d="M28 219H232" stroke="#244159" />
+  <g text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif">
+    <text x="130" y="245" font-size="19" font-weight="650" letter-spacing="1.2" fill="#e8f5ff">FLEXII WORLD</text>
+  </g>
   <text x="130" y="270" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="1.8" fill="#b69aff">EXPLORE THE CONCEPT</text>
-
 </svg>
