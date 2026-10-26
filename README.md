@@ -15,10 +15,6 @@
   <a href="https://github.com/acenwa?tab=repositories"><img src="assets/badges/repositories.svg" width="176" alt="Browse GitHub repositories" /></a>
 </p>
 
-<p align="center">
-  <img src="assets/terminal-animation.svg" width="1200" alt="acenwa@portfolio: whoami — Alozie C. Nwachukwu. Build, secure, automate, evolve." />
-</p>
-
 <p align="center"><img src="assets/circuit-divider.svg" width="1200" alt="" /></p>
 
 ## `00 // PLATFORMS`
@@ -99,5 +95,5 @@ An exploration of trading systems as spaceships and market sectors as planets, b
 </p>
 
 <p align="center">
-  <img src="assets/cyber-footer.svg" width="1200" alt="Alozie C. Nwachukwu / ACENWA. Animated circuit signals connect the principles build, secure, automate, evolve." />
+  <img src="assets/terminal-animation.svg" width="1200" alt="acenwa@portfolio: whoami — Alozie C. Nwachukwu. Build, secure, automate, evolve." />
 </p>
