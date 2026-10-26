@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/cyber-banner.svg" width="100%" alt="ACENWA digital systems architect banner" />
+<img src="assets/cyber-banner.svg" width="100%" alt="Alozie C. Nwachukwu digital systems architect banner" />
 
 <img src="assets/terminal-animation.svg" width="100%" alt="Animated system terminal" />
 
@@ -8,7 +8,7 @@
 
 Building practical digital systems, immersive applications, and resilient infrastructure.
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-RONIN.EXE-00E5FF?style=for-the-badge&labelColor=080B12)](https://ronin-exe.us)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-RONIN.EXE-00E5FF?style=for-the-badge&labelColor=080B12)](https://ronin-exe.us/about)
 [![Audio Cartel](https://img.shields.io/badge/PLATFORM-AUDIO_CARTEL-FF1744?style=for-the-badge&labelColor=080B12)](https://audiocartel.net)
 [![GitHub](https://img.shields.io/badge/GITHUB-acenwa-8B5CF6?style=for-the-badge&logo=github&labelColor=080B12)](https://github.com/acenwa)
 
@@ -19,9 +19,9 @@ Building practical digital systems, immersive applications, and resilient infras
 ## `> WHOAMI`
 
 ```text
-IDENTITY     ACENWA // DIGITAL SYSTEMS ARCHITECT
+IDENTITY     Alozie C. Nwachukwu // DIGITAL SYSTEMS ARCHITECT
 FOCUS        Python • Django • Linux • Automation • Web3
-OPERATIONS   Application engineering • Systems administration • Integrations
+OPERATIONS   Application Engineering • Systems Administration • Integrations
 MISSION      Build reliable technology with a distinctive digital experience.
 STATUS       [ ONLINE ]
 ```
@@ -77,16 +77,6 @@ An in-development galactic trading environment, representing trading systems as 
 </td>
 </tr>
 </table>
-
-## `> ACTIVITY TELEMETRY`
-
-<div align="center">
-
-<!-- These third-party cards may be temporarily unavailable; GitHub contributions remain visible on your profile. -->
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=acenwa&show_icons=true&hide_border=true&bg_color=080B12&title_color=00E5FF&text_color=C6D6E7&icon_color=8B5CF6" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acenwa&layout=compact&hide_border=true&bg_color=080B12&title_color=00E5FF&text_color=C6D6E7" alt="Most-used repository languages" />
-
-</div>
 
 ## `> SYSTEM PRINCIPLES`
 
